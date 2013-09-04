@@ -1,0 +1,4 @@
+name: pollenjam
+markdown: redcarpet
+pygments: true
+permalink: /:title.html
