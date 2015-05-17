@@ -7,7 +7,7 @@ start: 1pm
 end: 5pm
 location: San Francisco
 registration_url: register
-instructor: Gabriel Dunne with special guest Joshua Nimoy
+instructor: Gabriel Dunne
 fee_list: [["Students",   "$40"],
            ["Freelancers",  "$80"],
            ["Corporate",  "$120"]]
