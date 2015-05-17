@@ -16,15 +16,6 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-{% if page.instructor %}
-<div id="class-instructor">
-w/ {{ page.instructor }}
-</div>
-{% endif %}
-
-
-
-
 
 <div class="content">
 {{ content }}
@@ -33,6 +24,12 @@ w/ {{ page.instructor }}
 
 {% if page.upcoming %}
 <div class="classinfo">
+
+{% if page.instructor %}
+<div class="instructor">
+instructor: {{ page.instructor }}
+</div>
+{% endif %}
 
 <div id="class-date">
     <date title="{{ page.date | date_to_xmlschema }}">

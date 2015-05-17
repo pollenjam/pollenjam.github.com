@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Projection Mapping with Grasshopper and TouchDesigner
+title: Projection mapping workflow with Grasshopper and TouchDesigner
 upcoming: true
 class_date: 2013-10-21
 start: 9am
@@ -8,12 +8,12 @@ end: 4:30pm
 location: 1242 Market St FL2, San Francisco, CA 94102
 registration_url: register
 instructor: Gabriel Dunne
-fee_list: [["Students", 	"$60"],
+fee_list: [["Students", 	  "$60"],
            ["Freelancers", 	"$120"],
-           ["Corporate", 	"$550"]]
+           ["Corporate", 	  "$220"]]
 ---
 
-Projection-Mapping is a technique used for stage and music shows, events, and media-art. This workshop will cover some techniques for generating parametric form with grasshopper to fabricate an object with low-cost materials for projection mapping. We'll create a form with grasshopper and share geometry in real-time with TouchDesigner, resulting in an expressive fabrication and graphics pipeline. 
+Projection-Mapping is a technique used for stage and music shows, events, and media-art. This workshop will cover some techniques for generating parametric form with grasshopper to fabricate an object with low-cost materials for projection mapping. We'll create a form with grasshopper for fabrication, and share geometry data in real-time with TouchDesigner resulting in an expressive fabrication and graphics pipeline. 
 
 
 ### Required

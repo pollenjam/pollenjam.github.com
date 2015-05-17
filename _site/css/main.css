@@ -1,83 +1,24 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body { height: 100%; }
-
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-h2 {
-  font-size:120%;
-  margin-bottom:1em;
-}
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #d39; }
-a:hover   { color: #000; }
-a:visited { color: #d39; }
 
 button {
   font-size:80%;
   padding:0.5em;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-  margin-bottom:1em;
-}
-
-ul.posts span {
-  color: #aaa;
-}
-
-ul.posts.archive a{
-  color:#489;
-}
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
 .site {
-  font-size: 115%;
-  text-align: left;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+  max-width:800px;
+  margin-left:2em;
+  margin-right:1em;
 }
 
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
+.title {
+  border:0;
+}
+
+.instructor {
+  margin: 1em 0;
+  color:
 }
 
 .site .header h1.title {
@@ -125,11 +66,14 @@ ul.posts.archive a{
   border: 0;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
+.posts {
+  list-style-type:none;
+margin:0;
+padding:0;
+}
+.posts li {
+  margin-bottom:1em;
+}
 
 /* standard */
 .post pre {
@@ -164,17 +108,17 @@ ul.posts.archive a{
 }
 
 
-div#class-instructor {
-  
-}
-
-div.isupcoming {
+.isupcoming {
   margin-bottom:20px;
   color:#999;
 }
 
-div.classinfo {
+.classinfo {
+  font-size:90%;
   font-weight:bold;
   color:#259;
-  margin-top:2em;
+}
+.instructor {
+  color:#259;
+  font-weight:bold;
 }
